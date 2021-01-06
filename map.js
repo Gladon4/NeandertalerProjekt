@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  canvas = createCanvas(window.innerWidth, window.innerHeight * 0.8);
+  canvas = createCanvas(window.innerWidth * 0.95, window.innerHeight * 0.8);
   placeMap = mappa.tileMap(options);
 
   textSize(20);
