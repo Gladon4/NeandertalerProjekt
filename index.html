@@ -20,7 +20,7 @@
       <p class="information">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
 
       <h2>Quiz</h2>
-      <div class="quiz">
+      <!--<div class="quiz">
         <div id="home" class="flex-center flex column">
         <ul>
           <li>
@@ -101,11 +101,33 @@
           </li>
         </ul>
         </div>
-      </div>
+      </div>-->
+
+      <form class="quiz" id="quiz" name="quiz">
+        <div>
+          <h3 id="question-1">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question1" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question1" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+        </div>
+      </form>
 
       <h2>Fundorte</h2>
       <footer>
-        <p>Neandertalerprojekt von Alexander Grille, Marten Höynck und Philipp Nawotki</p>
+        <p>Neandertalerprojekt von Alexander Grille, Marten Höynck, Tim Langmaack und Philipp Nawotki</p>
       </footer>
   </body>
 </html>

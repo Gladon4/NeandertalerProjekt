@@ -73,6 +73,7 @@ hr{
   background-color:rgba(80, 180, 230, 0.7);
   transform: scale(1.03);
   box-shadow: 0 0.4rem 1.4rem 0 rgba(80, 180, 230, 0.5)
+
 }
 
 .choice-prefix{
@@ -89,12 +90,14 @@ hr{
   padding: 16px;
 }
 
-ul li{
-  width: 30%;
-  padding: 0;
-  float: left;
-  margin: 0 10px 0 10px;
-  list-style-type: none;
+input[type="radio"]{
+  display: none;
+}
+
+input:checked ~ .choice-container{
+  background-color:rgba(80, 180, 230, 0.7);
+  transform: scale(1.03);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(80, 180, 230, 0.5)
 }
 
 footer{
