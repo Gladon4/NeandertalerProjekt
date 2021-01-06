@@ -38,10 +38,15 @@ function setup() {
 
   points = [];
   d = [];
+
+
 }
+
 
 function draw() {
   clear();
+
+
   if (important) {
     button.innerText = 'Kartenansich zu allen Funden wechseln'
     i = 0
