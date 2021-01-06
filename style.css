@@ -32,10 +32,14 @@ button:hover{
   padding: 10px;
   background-color: rgba(80, 180, 230, 0.7);
   border-radius: 10px;
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
   margin-bottom: 20px;
   position: relative;
+}
+
+.video{
+  margin-bottom: 30px;
 }
 
 hr{
@@ -80,6 +84,7 @@ hr{
   margin: auto;
   padding: 16px 32px;
   margin-left: 0;
+  margin-right: 0;
   background-color: #56a5eb;
   border-radius: 8px;
   color: white;
@@ -88,6 +93,19 @@ hr{
 .choice-text{
   margin: auto;
   padding: 16px;
+}
+
+.quiz{
+  max-width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.question{
+  position: relative;
+  float: left;
+  min-width: 33%;
+  margin: 15px;
 }
 
 input[type="radio"]{

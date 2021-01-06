@@ -15,9 +15,9 @@
       <h1>Der Neandertaler</h1>
       <hr>
 
-      <iframe width="853" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="video" width="853" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <p class="information">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      <p class="information">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
 
       <h2>Quiz</h2>
       <!--<div class="quiz">
@@ -104,7 +104,7 @@
       </div>-->
 
       <form class="quiz" id="quiz" name="quiz">
-        <div>
+        <div class="question">
           <h3 id="question-1">Was ist die Antwort?</h3>
           <label>
             <input type="radio" name="question1" value="Choice1">
@@ -115,10 +115,314 @@
             </input>
           </label>
           <label>
-            <input type="radio" name="question1" value="Choice1">
+            <input type="radio" name="question1" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question1" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question1" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
+              </div>
+            </input>
+          </label>
+        </div>
+
+        <div class="question">
+          <h3 id="question-2">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question2" value="Choice1">
               <div class="choice-container">
                 <p class="choice-prefix">A</p>
                 <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question2" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question2" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question2" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
+              </div>
+            </input>
+          </label>
+        </div>
+
+        <div class="question">
+          <h3 id="question-3">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question3" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question3" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question3" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question3" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
+              </div>
+            </input>
+          </label>
+        </div>
+
+        <div class="question">
+          <h3 id="question-4">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question4" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question4" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question4" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question4" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
+              </div>
+            </input>
+          </label>
+        </div>
+
+        <div class="question">
+          <h3 id="question-5">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question5" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question5" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question5" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question5" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
+              </div>
+            </input>
+          </label>
+        </div>
+
+        <div class="question">
+          <h3 id="question-6">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question6" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question6" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question6" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question6" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
+              </div>
+            </input>
+          </label>
+        </div>
+
+        <div class="question">
+          <h3 id="question-7">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question7" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question7" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question7" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question7" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
+              </div>
+            </input>
+          </label>
+        </div>
+
+        <div class="question">
+          <h3 id="question-8">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question8" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question8" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question8" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question8" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
+              </div>
+            </input>
+          </label>
+        </div>
+
+        <div class="question">
+          <h3 id="question-9">Was ist die Antwort?</h3>
+          <label>
+            <input type="radio" name="question9" value="Choice1">
+              <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text">Choice 1</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question9" value="Choice2">
+              <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text">Choice 2</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question9" value="Choice3">
+              <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text">Choice 3</p>
+              </div>
+            </input>
+          </label>
+          <label>
+            <input type="radio" name="question9" value="Choice4">
+              <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text">Choice 4</p>
               </div>
             </input>
           </label>
