@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  canvas = createCanvas(1000, 700);
+  canvas = createCanvas(window.innerWidth, window.innerHeight * 0.8);
   placeMap = mappa.tileMap(options);
 
   textSize(20);
@@ -38,15 +38,12 @@ function setup() {
 
   points = [];
   d = [];
-
-  button.innerText = 'Kartenansich wechseln'
-  document.body.appendChild(button);
-  button.addEventListener('click', () => {changeMap();})
 }
 
 function draw() {
   clear();
   if (important) {
+    button.innerText = 'Kartenansich zu allen Funden wechseln'
     i = 0
     for (let row of data1.rows) {
       d[i] = 10;
@@ -67,6 +64,7 @@ function draw() {
       i++;
     }
   } else {
+    button.innerText = 'Kartenansich zu wichtigen Funden wechseln'
       i = 0
       for (let row of data2.rows) {
         d[i] = 10;
@@ -79,6 +77,8 @@ function draw() {
         i++;
     }
   }
+  document.body.appendChild(button);
+  button.addEventListener('click', () => {changeMap();})
 }
 
 function changeMap() {
