@@ -15,6 +15,9 @@ let important;
 
 const button = document.createElement('button');
 
+let parent = document.getElementsByClassName("places");
+console.log(parent);
+
 const options = {
   lat: 50,
   lng: 20,
@@ -28,7 +31,7 @@ function preload() {
 }
 
 function setup() {
-  canvas = createCanvas(window.innerWidth * 0.95, window.innerHeight * 0.8);
+  canvas = createCanvas(window.innerWidth * 0.98, window.innerHeight * 0.8);
   placeMap = mappa.tileMap(options);
 
   textSize(20);
@@ -39,7 +42,8 @@ function setup() {
   points = [];
   d = [];
 
-    button.addEventListener('click', () => {changeMap();})
+  button.addEventListener('click', () => {changeMap();})
+  parent[0].appendChild(button);
 }
 
 
@@ -77,13 +81,13 @@ function draw() {
         lon = row.get('lon');
         const place = placeMap.latLngToPixel(lat, lon);
 
-        fill(255, 50, 50);
+        fill(0, 200, 0);
         points[i] = ellipse(place.x, place.y, d[i], d[i]);
         i++;
     }
   }
-  document.body.appendChild(button);
 }
+
 
 function changeMap() {
   important = !important;
