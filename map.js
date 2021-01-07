@@ -39,7 +39,7 @@ function setup() {
   points = [];
   d = [];
 
-
+    button.addEventListener('click', () => {changeMap();})
 }
 
 
@@ -83,7 +83,6 @@ function draw() {
     }
   }
   document.body.appendChild(button);
-  button.addEventListener('click', () => {changeMap();})
 }
 
 function changeMap() {
