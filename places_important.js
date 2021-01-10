@@ -2,7 +2,7 @@ data = [
    [
      50.59162399550716,
      5.4096943779453195,
-     "Erster Neandertalerfund \n Engis 1829 \n Der um 1929 in der Höhle Awir II gefundene Oberkiefer stellt den frühest datierten Fund der homo neanderthalensis dar, da Engis 1 später als Überreste der Spezies homo sapiens klassifiziert wurde. Es existierten auch Überreste mit der Bezeichnung Engis 3, allerdings gelten diese als verschollen."
+     "Erster Neandertalerfund \n Engis 1829 \n Der um 1829 in der Höhle Awir II gefundene Oberkiefer stellt den frühest datierten Fund der homo neanderthalensis dar, da Engis 1 später als Überreste der Spezies homo sapiens klassifiziert wurde. Es existierten auch Überreste mit der Bezeichnung Engis 3, allerdings gelten diese als verschollen."
    ],
    [
      36.134373817096076,
