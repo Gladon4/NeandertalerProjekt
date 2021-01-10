@@ -70,6 +70,7 @@ button:hover{
   margin-bottom: 20px;
   position: relative;
   font-family: 'Source Sans Pro';
+  font-size: 20px;
 }
 
 .video{
