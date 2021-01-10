@@ -8,21 +8,15 @@ function check(){
   let q4 = document.quiz.question4.value;
   let q5 = document.quiz.question5.value;
   let q6 = document.quiz.question6.value;
-  let q7 = document.quiz.question7.value;
-  let q8 = document.quiz.question8.value;
-  let q9 = document.quiz.question9.value;
 
-  if (q1 == "Choice1") {c++;}
+  if (q1 == "Choice2") {c++;}
   if (q2 == "Choice1") {c++;}
-  if (q3 == "Choice1") {c++;}
-  if (q4 == "Choice1") {c++;}
-  if (q5 == "Choice1") {c++;}
-  if (q6 == "Choice1") {c++;}
-  if (q7 == "Choice1") {c++;}
-  if (q8 == "Choice1") {c++;}
-  if (q9 == "Choice1") {c++;}
+  if (q3 == "Choice4") {c++;}
+  if (q4 == "Choice2") {c++;}
+  if (q5 == "Choice3") {c++;}
+  if (q6 == "Choice4") {c++;}
 
-  score.innerText = "Dein Ergebnis: " + c + "!";
+  score.innerText = "Dein Ergebnis: \n" + c + " von 6 richtigen Antworten";
   score.class = "score"
   document.quiz.appendChild(score);
 }
